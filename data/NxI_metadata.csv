@@ -1,0 +1,31 @@
+﻿var,description,units
+id,tag identifier,NA
+n.trt,"nitrogen treatment (numeric, converted to factor for analyses)",NA
+inoc,inoculation treatment. Key: yi = inoculated; ni = not inoculated,NA
+rep,replicate of n.trt and inoc combination,NA
+block,block number,NA
+leaf.biomass,total leaf biomass,g
+stem.biomass,stem biomass,g
+root.biomass,root biomass,g
+nodule.biomass,root nodule biomass (0 if not present),g
+leaf.n,leaf nitrogen content,gN g-1 (%)
+leaf.c,leaf carbon content,gC g-1 (%)
+stem.n,stem nitrogen content,gN g-1 (%)
+stem.c,stem carbon content,gC g-1 (%)
+root.n,root nitrogen content,gN g-1 (%)
+root.c,root carbon content,gC g-1 (%)
+nodule.n,root nodule nitrogen content,gN g-1 (%)
+nodule.c,root nodule carbon content,gC g-1 (%)
+total.leaf.n,total leaf nitrogen biomass (focal.n * leaf.biomass),gN
+total.stem.n,total stem nitrogen biomass (stem.n * stem.biomass),gN
+total.root.n,total root nitrogen biomass (root.n * root.biomass),gN
+total.root.c,total root carbon biomass (root.c * root.biomass),gC
+total.nod.n,total root nodule nitrogen biomass (nod.n * nodule.biomass),gN
+total.nod.c,total root nodule carbon biomass (nod.c * nodule.biomass),gC
+wp.total.n,whole plant nitrogen biomass,gN
+bg.total.c,belowground carbon biomass,gC
+n.cost,structural carbon costs to acquire nitrogen,gC gN-1
+total.leaf.area,total leaf area,cm^2
+total.biomass,total biomass,g
+nod.root.biomass,ratio of root nodule biomass to root biomass,unitless (g/g)
+bvr,ratio of total biomass to pot volume (6 L),g/L
