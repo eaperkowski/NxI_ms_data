@@ -1,6 +1,8 @@
 # NxI_ms_data
 
-This repository contains data and analyses reported in Perkowski et al. (in prep). The manuscript investigates the effects of nitrogen availability and inoculation with _Bradyrhizobium japonicum_ on _Glycine max_ L. (Merr) carbon costs to acquire nitrogen. Folder contents are as follows:
+This repository contains data and analyses reported in Perkowski et al. (in prep). The manuscript investigates the effects of nitrogen availability and inoculation with _Bradyrhizobium japonicum_ on _Glycine max_ L. (Merr) carbon costs to acquire nitrogen and has been accepted for publication at _AoB Plants_. 
+
+Folder contents are as follows:
 
  - `data` contains a cleaned and compiled data file (`data/NxI_data.csv`) used for all scripts, along with a metadata file (`data/NxI_metadata.csv`) describing each trait acronym and its units. An additional file (`data/NxI_compact_letters.csv`) contains compact lettering used for plots to note pairwise comparisons where Tukey: _p_<0.05.
 
